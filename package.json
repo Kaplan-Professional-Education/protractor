@@ -76,7 +76,8 @@
     "start": "cd testapp && npm start",
     "test": "node scripts/test.js",
     "website": "cd website && npm start",
-    "compile_to_es5": "gulp compile_to_es5"
+    "compile_to_es5": "gulp compile_to_es5",
+    "postinstall": "gulp compile_to_es5"
   },
   "license": "MIT",
   "engines": {
