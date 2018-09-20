@@ -15,6 +15,9 @@
       "esnext"
     ]
   },
+  "include": [
+    "lib/**/*"
+  ],
   "exclude": [
     "built",
     "node_modules",
